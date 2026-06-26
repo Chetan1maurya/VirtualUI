@@ -11,7 +11,7 @@ import AllComponents from './pages/AllComponents.jsx'
 import MyComponents from './pages/MyComponents.jsx'
 import Pricing from './pages/Pricing.jsx'
 
-export const ServerURL = "http://localhost:3000"
+export const ServerURL = "https://virtualui-pj54.onrender.com"
 
 const App = () => {
     const dispatch = useDispatch()
