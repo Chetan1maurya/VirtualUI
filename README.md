@@ -54,14 +54,18 @@ cd ../virtualui-server
 npm install
 ```
 ### 3. env variables frontend
+```bash
 VITE_FIREBASE_APIKEY=******(Enter your API KEY)
 VITE_RAZORPAY_KEY_ID=******(Enter your API KEY)
+```
 
 ### 4. env variables backend
+```bash
 MONGO_URI=**********(Enter your mongodb database link)
 JWT_SECRET="2ddRymYJYnPDels8PEaCYvqpJUAe8ger9NcakAXIiuP"
 OPENROUTER_API_KEY=***********(Enter your API Key)
-RAZORPAY_KEY_ID=************(Enter your API Key)
-RAZORPAY_KEY_SECRET="8zJnKYG2dsXboRfkmZp5M7pj"
+RAZORPAY_KEY_ID=************(Enter your RazorpayID)
+RAZORPAY_KEY_SECRET=***********(Enter your SECRET)
+```
 
 
